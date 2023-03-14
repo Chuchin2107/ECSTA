@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80px;   
+}
+nav{
+position: fixed;
+width: 100%;
+color: #F7F7F7;
+box-shadow: rgba(255, 255, 255, .25);
+background-color: #51afe560;
+}
+.nav-one{
+    background: transparent;
+    height: 80px;
+    color: #051D40;
+}
+nav .links a{
+display: inline-block;
+padding: 5px 0;
+margin-right: 17px;
+color: #051D40;
+}
+nav .links a:hover{
+    border-bottom: 2px solid  #51AEE5 ;
+    transition: .2s;
+}
+.nav-container{
+display: flex;
+margin: auto;
+width: 90%;
+justify-content: space-between;
+align-items: center;
+overflow: hidden;
+}
+.logo img{
+    width: 60px;
+    margin: auto;
+}
+.logo img:hover{
+    width: 62px;
+    cursor: pointer;
+}
+.mision-vision img{ 
+    height: 250px;
+    object-fit: contain;
+
+}
+.title{
+    color: #051D40;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.mision-vision{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px;
+}
+.mision-vision h2{
+    text-align: justify;
+    margin: 20px;
+    color: #051D40;
+}
+.mision-vision p{
+    margin-top: 10px;
+    margin:auto;
+    padding: 10px;
+}
+.mv-card{
+width: 33.333%;
+height: 200px;
+background-color: #F7F7F7;
+margin-top:20px;
+margin: auto;
+border-radius: 40px;
+margin: 20px;
+}
+.title-services{
+    text-align: center;
+    color: #F7F7F7;
+    margin-top: 40px;
+  font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+.cardservices{
+    width: 100%;
+    height: 850px;
+    background-image: url(images/wallpaper_services.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .card{
+    width:250px;
+margin: 50px auto;
+padding: 5px;
+
+background: rgba(255, 255, 255, .25);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  margin-top: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+}
+.card img{
+    width: 200px;
+}
+.card h3{
+    color: white;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.contac-us{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+}
+.contac-us img{
+    width: 150px;
+}
+.socials{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ i{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    font-size: 30px;
+    color: #051D40;
+}
+.footer .menu{
+    width: 50%;
+
+}
+.footer a{
+    color: #051D40;
+}
+@media (max-width: 765px) {
+    .mision-vision{
+        width: 100%;
+        height: 150px;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin: 20px;
+    }
+    .mision-vision img{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .title{
+        text-align: center;
+    }
+    .mv-card{
+        width: 80%;
+        height: 200px;
+        background-color: #F7F7F7;
+        margin-top:20px;
+        margin: auto;
+        border-radius: 40px;
+        margin: 20px;
+        }
+        .mv-card h2{
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .mv-card p{
+            text-align: justify;
+        }
+  }
